@@ -1,0 +1,78 @@
+<h2>Installation <a name='download' href="#download">#</a></h2>
+
+<p>
+A binary for Linux, macOS, and Windows is available on the <a href='/download#dbgpProxy'>downloads</a> page.
+You only have to download the binary, which you can then run from a command line.
+</p>
+
+<h2>Command Line Options <a name='cmdline' href="#cmdline">#</a></h2>
+
+<p>The following command line options are available:</p>
+
+<table class="options">
+<tr><td><code>-h      </code></td>
+    <td>Show this help</td></tr>
+
+<tr><td><code>-i&nbsp;host:port</code><br/><code>--client&nbsp;host:port</code></td>
+    <td>Specify the port to listen on for IDE (client) connections [<code>localhost:9001</code>].</td></tr>
+<tr><td><code>-s&nbsp;host:port</code><br/><code>--server&nbsp;host:port</code></td>
+    <td>Specify the port to listen on for debugger engine (server) connections [<code>localhost:9003</code>].</td></tr>
+
+<tr><td><code>-v      </code></td>
+    <td>Show version number and exit</td></tr>
+</table>
+
+<h2>Usage <a name='usage'>#</a></h2>
+
+<p>To start the client on the command line on Linux, open a shell,
+and then run:</p>
+
+<pre>
+./dbgpProxy
+</pre>
+
+<p>If the binary doesn't start or you get a <code>not found</code> message,
+please refer to this <a href='/docs/faq#linux-not-found'>FAQ entry</a>.</p>
+
+<p>To start the client on the command line on macOS, open a shell,
+and then run:</p>
+
+<pre>
+./dbgpProxy-macos
+</pre>
+
+<p>On Windows, open a command a <em>Command Prompt</em> and run:</p>
+
+<pre>
+dbgpProxy.exe
+</pre>
+
+<p>In all cases, you can add the <a href="#cmdline">command line options</a>
+as described above.</p>
+
+<p>When the proxy starts, it shows some version information. It will
+then wait until a connection is made to it by a debugging engine (such as
+Xdebug):</p>
+
+<pre class="shell">Xdebug DBGp proxy (0.3)
+Copyright 2020 by Derick Rethans
+15:17:35.423 [<font color="#FFFF55">warn</font>] [<font color="#AAAAAA">SSL</font>] The &apos;certs/fullchain.pem&apos; file could not be found, not enabling SSL listeners
+15:17:35.424 [<font color="#55FF55">info</font>] [<font color="#AAAAAA">dbgpProxy</font>] Proxy started
+15:17:35.424 [<font color="#55FF55">info</font>] [<font color="#AAAAAA">server</font>] Started server server on 127.0.0.1:9003
+15:17:35.424 [<font color="#55FF55">info</font>] [<font color="#AAAAAA">server</font>] Started client server on 127.0.0.1:9001
+</pre>
+
+<p>When a client registers itself with the proxy it displays the IDE Key and
+where to reach that client:</p>
+
+<pre class="shell">15:18:57.087 [<font color="#55FF55">info</font>] [<font color="#AAAAAA">server</font>] Start new client connection from 127.0.0.1:54196
+15:18:57.087 [<font color="#55FF55">info</font>] [<font color="#AAAAAA">proxyinit</font>] [<font color="#FFFFFF"><b>derickr</b></font>] Added connection for IDE Key &apos;derickr&apos;: 127.0.0.1:9099
+15:18:57.087 [<font color="#55FF55">info</font>] [<font color="#AAAAAA">server</font>] Closing client connection from 127.0.0.1:54196
+</pre>
+
+<p>At this point the client should be ready to take incoming debugging
+connections to its registered port (<code>127.0.0.1:9099</code> in this
+example).</p>
+
+<p>You can stop the proxy by pressing <code>Ctrl-C</code> in its terminal. Once
+all debugging connections are closed, the proxy service will stop.</p>

@@ -1,0 +1,39 @@
+= xdebug_start_code_coverage
+Starts code coverage
+void
+int $options = 0
+FUNC_CODE_COVERAGE
+
+TXT:
+This function starts gathering the information for code coverage. The information
+can be retrieved with the [FUNC:xdebug_get_code_coverage] function.
+
+TXT:
+This function has three options, which act as a bitfield:
+
+<dl>
+<dt>XDEBUG_CC_UNUSED</dt>
+<dd>Enables scanning of code to figure out which line has executable code.
+Without this option the returned array will only have lines in them that were
+actually executed.</dd>
+
+<dt>XDEBUG_CC_DEAD_CODE</dt>
+<dd>Enables branch analyzes to figure out whether code can be executed.</dd>
+
+<dt>XDEBUG_CC_BRANCH_CHECK</dt>
+<dd>Enables branch and path execution analysis.</dd>
+</dl>
+
+The options to analyse PHP code will reduce PHP's performance. These options
+also only have effect on code coverage analyses for functions, methods, or
+scripts started <b>after</b> the call to [FUNC:xdebug_start_code_coverage], and
+have no effect on the function where [FUNC:xdebug_start_code_coverage] is
+called in.
+
+TXT:
+You can use the options as shown in the following example.
+
+EXAMPLE:
+<?php
+xdebug_start_code_coverage( XDEBUG_CC_UNUSED | XDEBUG_CC_DEAD_CODE );
+?>

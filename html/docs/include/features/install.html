@@ -1,0 +1,234 @@
+<p>
+How you install Xdebug depends on your system. There are the following possibilities:
+<ul>
+	<li><a href='#linux'>Linux with a package manager</a> such
+	as <code>apt</code>, <code>yum</code>, or something else.</li>
+	<li><a href='#pecl'>Linux without an Xdebug package</a> with PECL.</li>
+	<li><a href='#pecl'>macOSX with homebrew</a>, through PECL.</li>
+	<li><a href='#windows'>Windows</a>, with help from a wizard.</li>
+	<li><a href='#source'>Unix-like operating systems</a>, from source.</li>
+</ul>
+
+<h2>Installing on Linux <a name='linux' href="#linux">#</a></h2>
+
+<p>
+Installing Xdebug with a package manager is often the fastest way. Depending on your distribution, run the following command:
+<ul>
+	<li><strong>Alpinelinux</strong>:<br/><code>sudo apk add php7-pecl-xdebug</code></li>
+	<li><strong>Arch Linux</strong>:<br/><code>sudo pacman -S xdebug</code></li>
+	<li><strong>CentOS</strong>:<br/><code>sudo yum install php-xdebug</code></li>
+	<li><strong>CentOS</strong> (Remi Repro):<br/><code>sudo yum install php74-php-xdebug</code></li>
+	<li><strong>Debian</strong> (9/stretch, testing/buster/bullseye/sid):<br/><code>sudo apt-get install php-xdebug</code></li>
+	<li><strong>Fedora</strong> (32):<br/><code>sudo yum install php-xdebug</code></li>
+	<li><strong>Fedora</strong> (Remi Repro):<br/><code>sudo yum install php74-php-xdebug</code></li>
+	<li><strong>Gentoo</strong>:<br/><code>emerge dev-php/xdebug</code></li>
+	<li><strong>Manjaro</strong> (20.1/Mikah):<br/><code>sudo pacman -S xdebug</code></li>
+	<li><strong>RHEL</strong>:<br/><code>sudo yum install php-xdebug</code></li>
+	<li><strong>RHEL</strong> (Remi Repro):<br/><code>sudo yum install php74-php-xdebug</code></li>
+	<li><strong>SUSE</strong> (openSUSE, Enterprise):<br/><code>sudo zypper in php7-xdebug</code></li>
+	<li><strong>Ubuntu</strong> (18.04 LTS/Bionic, 20.04 LTS/Focal):<br/><code>sudo apt-get install php-xdebug</code></li>
+	<li><strong>Ubuntu</strong> (Ondřej Surý's PPA):<br/><code>sudo apt-get install php7.4-xdebug</code></li>
+</ul>
+</p>
+
+<p>Linux distributions might be providing an old and/or outdated version.
+If the package manager
+installs a version that is no longer supported (see <a
+href='/docs/compat#supported-versions'>Supported Versions</a>), please install
+Xdebug with <a href='#pecl'>PECL</a>, or from <a href='#source'>source</a>
+instead.</p>
+<p>Xdebug's latest version is [KW:last_release_version].</p>
+
+
+<h2>Installing with PECL <a name='pecl' href="#pecl">#</a></h2>
+
+<p>
+You can install Xdebug through PECL on Linux &amp; macOS with Homebrew.
+Run:
+</p>
+<pre class='example'>
+pecl install xdebug
+</pre>
+<p>
+On Apple M1 hardware, you might instead need to use:
+</p>
+<pre class='example'>
+arch -x86_64 sudo pecl install xdebug
+</pre>
+<p class="warning"><strong>Warning:</strong> You should ignore any prompts to add
+<code>"extension=xdebug.so"</code> to
+<code>php.ini</code> &mdash; this <strong>will</strong> cause problems.</p>
+
+<p>In some cases <code>pecl</code> will change the <code>php.ini</code> file to
+add a configuration line to load Xdebug. You can check whether it did by
+running <code>php -v</code>. If Xdebug shows up with a version number, than
+you're all set and you can configure Xdebug's other functions, such as
+[FEAT:step_debug], or [FEAT:profiler].</p>
+
+<p>If <code>pecl</code> did not add the right line, skip to the <a
+href='#configure-php'>Configure PHP</a> section.</p>
+
+<p class='footnote'><sup><a name='1' href="#1">1</a></sup> On macOS, you should have PHP installed with <a href='https://formulae.brew.sh/formula/php'>Homebrew</a>.</p>
+
+
+<h2>Installing on Windows <a name='windows' href="#windows">#</a></h2>
+
+<p>
+There are a few precompiled modules for Windows, they are all for the non-debug
+version of PHP. You can get those at the <a href='/download'>download</a>
+page. Follow <a href='/wizard'>these instructions</a> to get Xdebug
+installed.
+</p>
+
+<h2>Installation From Source <a name='source' href="#source">#</a></h2>
+
+<h3>Obtain <a name='obtain' href="#obtain">#</a></h3>
+
+<p>
+You can <a href='/download#releases'>download</a> the source of the latest <b>stable</b> release [KW:last_release_version].
+</p>
+<p>
+Alternatively you can obtain Xdebug from GIT:
+</p>
+<pre class='example'>
+git clone git://github.com/xdebug/xdebug.git
+</pre>
+<p>
+This will checkout the latest development version which is currently
+[KW:last_dev_version]. This development branch might not always work as
+expected, and may have bugs.
+</p>
+<p>
+You can also browse the source on GitHub at <a
+href='https://github.com/xdebug/xdebug'>https://github.com/xdebug/xdebug</a>.
+</p>
+
+<h3>Compile <a name='compile' href="#compile">#</a></h3>
+
+<p>There is a <a href='/wizard.php'>wizard</a> available that provides you
+with the correct file to download, and which paths to use.</p>
+<p>
+You compile Xdebug separately from the rest of PHP. You need access to the
+scripts <code>phpize</code> and <code>php-config</code>. If your system
+does not have <code>phpize</code> and <code>php-config</code>, you will
+need to install the PHP development headers.</p>
+<p>
+Debian users can do that with:
+</p>
+<pre class="example">
+apt-get install php-dev
+</pre>
+<p>
+And RedHat and Fedora users with:
+</p>
+<pre>
+yum install php-devel
+</pre>
+
+<p>
+It is important that the source version matches the installed version as there
+are slight, but important, differences between PHP versions.  Once you have
+access to <code>phpize</code> and <code>php-config</code>, take the
+following steps:
+</p>
+<p>
+<ol>
+<li><p>Unpack the tarball:</p>
+<p><code>tar -xzf xdebug-[KW:last_release_version].tgz</code></p>
+<p>You should <strong>not</strong>
+unpack the tarball inside the PHP source code tree.
+Xdebug is compiled separately, all by itself, as stated above.</p></li>
+
+<li><p><code>cd xdebug-[KW:last_release_version]</code></p></li>
+
+<li><p><code>phpize</code></p>
+<p>If phpize is not in your path, please make sure
+that it is by expanding the <code>PATH</code> environment variable. Make sure
+you use the phpize that belongs to the PHP version that you want to use Xdebug
+with. See <a href='/docs/faq#api'>this FAQ entry</a> if you're having some
+issues with finding which phpize to use.</p></li>
+
+<li><p><code>./configure --enable-xdebug</code></p></li>
+<li><p><code>make</code></p></li>
+<li><p><code>make install</code></p></li>
+</ol>
+
+<h3>Configure PHP <a name='configure-php' href="#configure-php">#</a></h3>
+
+<ol>
+
+<li><p>Find out which PHP ini file to modify.
+
+<p>Run a script with the following to find all configuration files that PHP has
+loaded:</p>
+<pre>
+&lt;?php
+var_dump(php_ini_loaded_file(), php_ini_scanned_files());
+</pre>
+<p>Alternatively, you can run <code>php --ini</code> on the command line.</p>
+
+<p>If there is a file with <code>xdebug</code> in the name, such as
+<code>/etc/php/7.4/cli/conf.d/99-xdebug.ini</code>, then this is the
+file to use.</p>
+
+<p>If that file does not exist, but there are other files in a
+<code>conf.d</code> or similar directory, you can create a new file there too.
+Please name it <code>99-xdebug.ini</code> in that case.</p>
+
+<p>Otherwise, modify the <code>php.ini</code> file that is displayed through
+the script, or <code>php --ini</code> command.</p>
+
+<p class="warning"><strong>Note:</strong> There could be more than one
+<code>php.ini</code> file. In many set-ups there is a different one for the
+command line (often <code>cli/php.ini</code>) and the web server (often
+<code>fpm/php.ini</code>).</p>
+
+<p class="warning"><strong>Note:</strong> If you want to use Xdebug and
+OPCache together, you must have the <code>zend_extension</code> line for Xdebug
+below the line for OPCache, or in a file starting with a higher number (ie.
+<code>99-xdebug.ini</code> vs <code>20-opcache.ini</code>), otherwise they
+won't work properly together.</p>
+
+</li>
+
+<li><p>Add the following line to this PHP ini file:</p>
+<p><code>zend_extension=xdebug</code></p>
+</li>
+
+<li><p>Restart your webserver, or PHP-FPM, depending on what you are
+using.</p></li>
+
+<li><p>Verify that Xdebug is now loaded.</p>
+
+<p>Create a PHP page that calls [FUNC:xdebug_info]. If you request the
+page through the browser, it should show you an overview of Xdebug's settings
+and log messages.</p>
+
+<p>On the command line, you can also run <code>php -v</code>. Xdebug and its
+version number should be present as in:</p>
+<pre>
+PHP 7.4.10 (cli) (built: Aug 18 2020 09:37:14) ( NTS DEBUG )
+Copyright (c) The PHP Group
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+  with Zend OPcache v7.4.10-dev, Copyright (c), by Zend Technologies
+  with Xdebug v3.0.0-dev, Copyright (c) 2002-2020, by Derick Rethans
+</pre>
+
+<p>If Xdebug does not show up, or you get a warning from PHP that an
+<code>xdebug.so</code> file or similar was not found, you might need to use the
+full path instead of just <code>zend_extension=xdebug</code>, such as
+<code>zend_extension=/usr/lib/php/20190902/xdebug.so</code>.</p>
+
+<p>On Windows, you should place the <code>php_xdebug.dll</code> in the
+<code>ext/</code> directory, which is a child directory in your PHP
+installation tree.</p>
+
+</li>
+</ol>
+
+<p>If you have trouble with this, please refer to the <a
+href='/wizard'>installation wizard</a> to help you guide through this
+process.</p>
+
+<p>With Xdebug loaded, you can now enable individual features, such as
+[FEAT:step_debug], or [FEAT:profiler].</p>

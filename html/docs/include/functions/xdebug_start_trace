@@ -1,0 +1,57 @@
+= xdebug_start_trace
+Starts a new function trace
+?string
+?string $traceFile = null, int $options = 0
+FUNC_FUNCTION_TRACE
+
+TXT:
+Start tracing function calls from this point to the file in the
+<code>$trace_file</code> parameter. If no filename is given, then the trace file will
+be placed in the directory as configured by the [CFG:output_dir] setting.
+
+TXT:
+In case a file name is given as first parameter, the name is relative
+to the current working directory. This current working directory might be
+different than you expect it to be, so please use an absolute path in case you
+specify a file name. Use the PHP function <a
+href='http://php.net/getcwd'>getcwd()</a> to figure out what the current
+working directory is.
+
+TXT:
+The name of the trace file is <code>{$trace_file}.xt</code>. If the trace was started at
+the beginning of the request because [CFG:start_with_request] is set to
+<code>yes</code>, then the filename depends on the
+[CFG:trace_output_name] setting.
+
+TXT:
+The <i>options</i> parameter is a bitfield;
+currently there are three options:
+
+TXT:
+The <i>options</i> parameter is a bitfield;
+currently there are three options:
+
+<dl>
+<dt>XDEBUG_TRACE_APPEND (1)</dt>
+<dd>makes the trace file open in append mode rather than
+overwrite mode</dd>
+<dt>XDEBUG_TRACE_COMPUTERIZED (2)</dt>
+<dd>creates a trace file with
+the format as described under <i>1</i> "[CFG:trace_format]".</dd>
+<dt>XDEBUG_TRACE_HTML (4)</dt>
+<dd>creates a trace file as an HTML table</dd>
+<dt>XDEBUG_TRACE_NAKED_FILENAME (8)</dt>
+<dd>Normally, Xdebug always adds ".xt" to the end of the filename that you
+pass in as first argument to this function. With the
+<i>XDEBUG_TRACE_NAKED_FILENAME</i> flag set, ".xt" is not added.</dd>
+</dl>
+
+TXT:
+The settings [CFG:collect_assignments] and [CFG:collect_return] influence what
+information is logged to the trace file and the setting [CFG:trace_format]
+influences the format of the trace file.
+
+TXT:
+The full path and filename to which Xdebug traces is returned from this
+function. This will be either the filename you pass in (potentially with ".xt"
+added), or the auto generated filename if no filename has been passed in.

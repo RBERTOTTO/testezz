@@ -1,0 +1,57 @@
+= xdebug_get_function_stack
+Returns information about the stack
+array
+none
+FUNC_STACK_TRACE
+
+TXT:
+Returns an array which resembles the stack trace up to this point. The example script:
+
+EXAMPLE:
+<?php
+    class strings {
+        function fix_string($a)
+        {
+            var_dump(xdebug_get_function_stack());
+        }
+
+        function fix_strings($b) {
+            foreach ($b as $item) {
+                $this->fix_string($item);
+            }
+        }
+    }
+
+    $s = new strings();
+    $ret = $s->fix_strings(array('Derick'));
+?>
+
+RESULT:
+<b>array</b>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'{main}'</font> <i>(length=6)</i>
+      'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/var/www/xdebug_get_function_stack.php'</font> <i>(length=63)</i>
+      'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>0</font>
+      'params' <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          <i><font color='#888a85'>empty</font></i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'fix_strings'</font> <i>(length=11)</i>
+      'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'strings'</font> <i>(length=7)</i>
+      'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/var/www/xdebug_get_function_stack.php'</font> <i>(length=63)</i>
+      'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>18</font>
+      'params' <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          'b' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'array (0 =&gt; &apos;Derick&apos;)'</font> <i>(length=21)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'fix_string'</font> <i>(length=10)</i>
+      'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'strings'</font> <i>(length=7)</i>
+      'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/var/www/xdebug_get_function_stack.php'</font> <i>(length=63)</i>
+      'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>12</font>
+      'params' <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          'a' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&apos;Derick&apos;'</font> <i>(length=8)</i>
+

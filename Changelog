@@ -1,0 +1,1122 @@
+Sun Nov 22 16:47:31 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/functions/xdebug_stop_code_coverage:
+- Fixed bug #381: Code coverage documentation doesn't match behaviour.
+- Added documentation for xdebug_stop_code_coverage's cleanup argument.
+
+Sun Nov 22 16:26:49 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Fixed bug #386: Missing docs: Xdebug and IonCube don't work well together.
+
+Sat Oct 17 18:58:58 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Fixed bug #390: Quotation marks suck.
+
+Sat Oct 10 11:41:33 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Clarify docs.
+
+Wed Sep 09 17:33:24 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Adding a faq entry.
+
+Tue Aug 11 10:53:44 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/download.php:
+- Fixed NTS additions.
+
+Sun Jul 12 17:24:10 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/basic.php
+www.xdebug.org/html/docs/include/features.php:
+- Fixed docs regarding zend_extension and php 5.3.
+
+Fri Jul 03 20:44:37 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/download.php
+www.xdebug.org/html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/php_xdebug-2.0.5-5.2-nts.dll
+www.xdebug.org/html/files/php_xdebug-2.0.5-5.2.dll
+www.xdebug.org/html/files/php_xdebug-2.0.5-5.3-vc6-nts.dll
+www.xdebug.org/html/files/php_xdebug-2.0.5-5.3-vc6.dll
+www.xdebug.org/html/files/php_xdebug-2.0.5-5.3-vc9-nts-x86_64.dll
+www.xdebug.org/html/files/php_xdebug-2.0.5-5.3-vc9-nts.dll
+www.xdebug.org/html/files/php_xdebug-2.0.5-5.3-vc9-x86_64.dll
+www.xdebug.org/html/files/php_xdebug-2.0.5-5.3-vc9.dll
+www.xdebug.org/html/files/xdebug-2.0.5.tgz
+www.xdebug.org/html/include/menu-docs.php
+www.xdebug.org/html/include/menu.php:
+- Releasing 2.0.5.
+
+Thu Jun 11 10:09:03 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Fixed link... it moved.
+
+Mon May 25 09:54:13 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/index.php:
+- Added a link to xdebug.ru.
+
+Fri May 15 11:42:28 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Added xdebugtoolkit.
+
+Mon Apr 20 12:52:56 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/support.php:
+- Fixed broken grammer.
+
+Tue Apr 07 20:56:48 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/functions/xdebug_print_function_stack:
+- Added documentation for xdebug_print_function_stack.
+
+Tue Apr 07 16:05:05 CEST 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/functions/xdebug_get_headers:
+- Added documentation for Xdebug's xdebug_get_headers() function.
+
+Sat Mar 28 17:23:48 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Fixed bug #434: Documentation is misleading about function execution times in
+  cachegrind.out.
+
+Sat Mar 28 13:04:51 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/support.php:
+- Added list href.
+
+Fri Mar 13 11:20:44 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Updated the Geben link.
+
+Tue Mar 03 09:14:35 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/download.php:
+- Fixed cvs instructions. (Reported by Lucas)
+
+Mon Jan 12 19:22:47 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/settings.php:
+- Also mention the cookie.
+
+Wed Jan 07 13:43:03 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/download.php:
+- Update description.
+
+Wed Jan 07 13:24:18 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/download.php
+www.xdebug.org/html/include/menu.php:
+- 
+
+
+Tue Jan 06 13:43:28 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/download.php:
+- Fixed rendering script.
+
+Sat Jan 03 20:01:27 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/files/php_xdebug-2.0.4-5.3.0-vc6-nts.dll
+www.xdebug.org/html/files/php_xdebug-2.0.4-5.3.0-vc6.dll:
+- Swapping DLLs as they have been misnamed.
+
+Fri Jan 02 22:00:25 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/download.php
+www.xdebug.org/html/docs-dbgp.php
+www.xdebug.org/html/docs-gdb.php
+www.xdebug.org/html/index.php
+www.xdebug.org/html/license.php
+www.xdebug.org/html/screens.php
+www.xdebug.org/html/support.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/docs/index.php
+www.xdebug.org/html/images/xdebug.gif
+www.xdebug.org/html/include/footer.php
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/menu-docs.php
+www.xdebug.org/html/include/menu.php:
+- Move downloads to their own site, and freshen up the design a bit.
+
+Fri Jan 02 21:54:34 CET 2009 Derick Rethans <derick@derickrethans.nl>
+html/files/php_xdebug-2.0.4-5.2.8.dll
+www.xdebug.org/html/files/php_xdebug-2.0.4-5.2.8-nts.dll
+www.xdebug.org/html/files/php_xdebug-2.0.4-5.3.0-vc6.dll
+www.xdebug.org/html/files/php_xdebug-2.0.4-5.3.0-vc6-nts.dll
+www.xdebug.org/html/files/php_xdebug-2.0.4-5.3.0-vc9.dll
+www.xdebug.org/html/files/php_xdebug-2.0.4-5.3.0-vc9-nts.dll:
+- Added the Windows DLL (courtesy of Pierre).
+
+Wed Dec 31 09:50:40 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/include/links.php:
+- Fixed download link.
+
+Tue Dec 30 19:26:22 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/index.php:
+- Fixed date.
+
+Tue Dec 30 16:19:38 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/include/side.php:
+- Added a note for windows.
+
+Tue Dec 30 16:18:23 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/xdebug-2.0.4.tgz
+www.xdebug.org/html/include/side.php:
+- Added texts and download for 2.0.4.
+
+Thu Dec 11 16:35:12 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php
+www.xdebug.org/html/include/side.php:
+- Added source browsing links.
+
+Thu Nov 27 19:50:59 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs-dbgp.php:
+- Updated with new RST and clarified text.
+
+Mon Nov 03 10:03:41 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Added some more clients
+- Mentioned that I do not want to be support
+
+Thu Oct 16 13:08:41 CEST 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Fixed typo.
+
+Fri Oct 10 16:56:27 CEST 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Added Mac specific clients.
+
+Wed Oct 01 18:48:07 CEST 2008 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php:
+- Fixed date-format.
+
+Tue Sep 23 09:24:34 CEST 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Added php eclipse.
+
+Fri Apr 11 10:40:24 CEST 2008 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php:
+- Added updates file.
+
+Fri Apr 11 10:36:59 CEST 2008 Derick Rethans <derick@derickrethans.nl>
+html/files/php_xdebug-2.0.3-5.1.7.dll
+www.xdebug.org/html/files/php_xdebug-2.0.3-5.2.5.dll
+www.xdebug.org/html/files/php_xdebug-2.0.3-5.3.0.dll
+www.xdebug.org/html/files/xdebug-2.0.3.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Release 2.0.3.
+
+Tue Mar 18 09:52:11 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Update link, remove Maguma.
+
+Fri Mar 14 20:25:34 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/settings.php:
+- Fixed typo.
+
+Fri Feb 22 12:55:34 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Fixed link.
+
+Fri Feb 15 21:38:12 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Updated link to newer version.
+
+Wed Jan 30 22:00:31 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- No e here.
+
+Wed Jan 30 21:59:06 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Make clearer that you need the full path.
+
+Wed Jan 02 13:11:02 CET 2008 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Added NetBeans IDE.
+
+Wed Dec 05 15:08:19 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Fixed docs
+
+Thu Nov 15 22:08:32 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Added two new editors.
+
+Mon Nov 12 17:34:44 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/include/links.php:
+- Oops.
+
+Sun Nov 11 17:36:26 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/settings.php:
+- Fixed bug #333: Documentation problem: says "hit" instead of "jit".
+
+Sun Nov 11 17:33:12 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/files/php_xdebug-2.0.2-4.4.6.dll
+www.xdebug.org/html/files/php_xdebug-2.0.2-5.1.7.dll
+www.xdebug.org/html/files/php_xdebug-2.0.2-5.2.5.dll
+www.xdebug.org/html/files/php_xdebug-2.0.2-5.3.0.dll
+www.xdebug.org/html/files/xdebug-2.0.2-4.4.6.dll
+www.xdebug.org/html/files/xdebug-2.0.2-5.1.7.dll
+www.xdebug.org/html/files/xdebug-2.0.2-5.2.5.dll
+www.xdebug.org/html/files/xdebug-2.0.2-5.3.0.dll:
+- Rename files.
+
+Sun Nov 11 17:28:44 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/docs/include/basic.php
+www.xdebug.org/html/files/xdebug-2.0.2-4.4.6.dll
+www.xdebug.org/html/files/xdebug-2.0.2-5.1.7.dll
+www.xdebug.org/html/files/xdebug-2.0.2-5.2.5.dll
+www.xdebug.org/html/files/xdebug-2.0.2-5.3.0.dll
+www.xdebug.org/html/files/xdebug-2.0.2.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Put 2.0.2 online.
+
+Sat Oct 27 18:08:55 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/settings.php:
+- Clarify that those settings do not influence remote debugging.
+
+Fri Oct 26 13:34:57 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/link.php
+www.xdebug.org/html/include/header.php:
+- No more pconnect.
+
+Thu Oct 25 22:49:51 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- It works fine with APC.
+
+Tue Oct 23 10:06:45 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Fixed link.
+
+Sun Oct 21 13:55:28 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/files/xdebug-2.0.1.tgz:
+- Repackage.
+
+Sun Oct 21 13:52:32 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/docs/include/basic.php
+www.xdebug.org/html/files/php_xdebug-2.0.1-4.4.1.dll
+www.xdebug.org/html/files/php_xdebug-2.0.1-5.1.2.dll
+www.xdebug.org/html/files/php_xdebug-2.0.1-5.2.1.dll
+www.xdebug.org/html/files/xdebug-2.0.1.tgz
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Update for 2.0.1.
+
+Thu Aug 23 21:47:49 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/settings.php:
+- Added docs for new setting.
+
+Mon Aug 20 09:36:46 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/install.php
+www.xdebug.org/html/docs/include/basic.php
+www.xdebug.org/html/docs/include/features.php:
+- Fixed docs.
+
+Fri Aug 03 23:16:38 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/updates.php:
+- Test commit. 
+
+Fri Aug 03 23:15:30 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/functions/xdebug_start_trace:
+- Document TRACE_HTML option.
+
+Fri Aug 03 23:12:55 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/functions/xdebug_get_declared_vars:
+- Even clearer.
+
+Fri Aug 03 23:11:40 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/functions/xdebug_get_declared_vars:
+- Clarify when "a" is not in the array.
+
+Mon Jul 23 21:15:35 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/settings.php
+www.xdebug.org/html/include/header.php:
+- Fixed xdebug.trace_format documentation.
+
+Sun Jul 22 23:01:29 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/basic.php
+www.xdebug.org/html/docs/include/settings.php:
+- Added documentation for xdebug.file_link_format.
+
+Sun Jul 22 16:59:18 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php
+www.xdebug.org/html/docs/include/settings.php:
+- Fixed some HTML errors.
+
+Thu Jul 19 19:43:21 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Added display_errors to the FAQ.
+
+Wed Jul 18 22:45:55 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php:
+- 18 not 28
+
+Wed Jul 18 21:14:18 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php:
+- Better R.A.
+
+Wed Jul 18 20:49:28 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/php_xdebug-2.0.0-4.4.6.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0-5.1.6.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0-5.2.2.dll
+www.xdebug.org/html/files/xdebug-2.0.0.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Xdebug 2.0.0.
+
+Mon Jul 16 20:43:54 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/basic.php:
+- Update versions.
+
+Sat Jul 14 17:26:11 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs-dbgp.php
+www.xdebug.org/html/index.php
+www.xdebug.org/html/license.php
+www.xdebug.org/html/support.php
+www.xdebug.org/html/docs/index.php
+www.xdebug.org/html/include/footer.php
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/side.php:
+- Update to draft 16.
+
+Wed Jul 04 11:14:55 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Updated vim script link and added tutorial.
+
+Mon Jul 02 16:59:25 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/images/xdebug-logo.png:
+- Added logo.
+
+Wed Jun 27 09:50:12 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- One more editor
+
+Tue Jun 26 19:29:55 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- One more editor.
+
+Tue Jun 26 19:08:35 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/index.php
+www.xdebug.org/html/docs/include/features.php:
+- Fixed layout.
+
+Tue Jun 26 19:08:05 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php:
+- Added notepad++ plugin.
+
+Tue Jun 26 08:56:49 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php
+www.xdebug.org/html/include/side.php:
+- Changed single quotes to double quotes.
+
+Tue Jun 19 19:03:06 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs-debugger.php
+www.xdebug.org/html/docs-faq.php
+www.xdebug.org/html/docs-functions.php
+www.xdebug.org/html/docs-profiling.php
+www.xdebug.org/html/docs-profiling2.php
+www.xdebug.org/html/docs-settings.php
+www.xdebug.org/html/docs/include/features.php:
+- Enable redirects.
+- Fixed profiler layout.
+
+Wed May 30 18:19:55 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/include/links.php:
+- Fixed links
+
+Tue May 29 13:58:08 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/functions/xdebug_get_tracefile_name:
+- One more function.
+
+Tue May 29 13:56:40 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/functions/xdebug_start_trace:
+- Fixed links.
+
+Mon May 28 18:45:39 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/basic.php
+www.xdebug.org/html/docs/include/functions/xdebug_start_trace:
+- Document xdebug_start_trace() better.
+
+Sun May 27 23:40:35 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/support.php
+www.xdebug.org/html/docs/include/settings.php:
+- Added some more docs for remote_log and on "how to report a bug".
+
+Sun May 27 20:14:04 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/include/header.php:
+- Changed layout for h3.
+
+Sun May 20 16:58:34 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs.php:
+- Fixed redirect to new docs.
+
+Thu May 17 22:56:00 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/settings.php:
+- Documented the new format specifiers.
+
+Thu May 17 22:55:28 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php:
+- Added "RC4" to the announcement.
+
+Thu May 17 18:00:49 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php:
+- Announcement.
+
+Thu May 17 17:53:01 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/features.php
+www.xdebug.org/html/docs/include/settings.php
+www.xdebug.org/html/docs/include/functions/xdebug_get_declared_vars
+www.xdebug.org/html/files/php_xdebug-2.0.0rc4-4.4.1.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc4-5.1.2.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc4-5.2.1.dll
+www.xdebug.org/html/files/xdebug-2.0.0RC4.tgz
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php
+www.xdebug.org/html/yui/build/dom/dom.js
+www.xdebug.org/html/yui/build/element/element-beta.js
+www.xdebug.org/html/yui/build/event/event.js
+www.xdebug.org/html/yui/build/tabview/tabview.js
+www.xdebug.org/html/yui/build/tabview/assets/border_tabs.css
+www.xdebug.org/html/yui/build/tabview/assets/tabview.css
+www.xdebug.org/html/yui/build/yahoo/yahoo.js:
+- Many more docs.
+
+Tue Apr 24 23:18:18 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/settings.php
+www.xdebug.org/html/include/header.php:
+- Document collect_params settings.
+
+Sun Apr 22 18:11:11 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/include/basic.php
+www.xdebug.org/html/docs/include/features.php
+www.xdebug.org/html/docs/include/settings.php:
+- Fixed the regular expressions for adding links to functions and settings.
+- Added information about stack trace settings in the introduction.
+- Added a FAQ entry on Debian weirdness.
+- Added documentation for the dump_globals setting.
+
+Mon Apr 09 22:44:33 CEST 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs-dbgp.php
+www.xdebug.org/html/index.php
+www.xdebug.org/html/license.php
+www.xdebug.org/html/support.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/docs/index.php
+www.xdebug.org/html/docs/include/basic.php
+www.xdebug.org/html/docs/include/features.php
+www.xdebug.org/html/docs/include/settings.php
+www.xdebug.org/html/docs/include/functions/var_dump
+www.xdebug.org/html/docs/include/functions/xdebug_debug_zval
+www.xdebug.org/html/docs/include/functions/xdebug_dump_superglobals
+www.xdebug.org/html/docs/include/functions/xdebug_get_code_coverage
+www.xdebug.org/html/docs/include/functions/xdebug_get_function_stack
+www.xdebug.org/html/docs/include/functions/xdebug_memory_usage
+www.xdebug.org/html/docs/include/functions/xdebug_peak_memory_usage
+www.xdebug.org/html/docs/include/functions/xdebug_time_index
+www.xdebug.org/html/docs/include/functions/xdebug_var_dump
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/menu-docs.php:
+- Many updates.
+
+Sun Mar 18 14:25:49 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs/index.php
+www.xdebug.org/html/docs/include/basic.php
+www.xdebug.org/html/docs/include/features.php
+www.xdebug.org/html/docs/include/functions/xdebug_call_class
+www.xdebug.org/html/docs/include/functions/xdebug_call_file
+www.xdebug.org/html/docs/include/functions/xdebug_call_function
+www.xdebug.org/html/docs/include/functions/xdebug_call_line
+www.xdebug.org/html/docs/include/functions/xdebug_debug_zval
+www.xdebug.org/html/docs/include/functions/xdebug_debug_zval_stdout
+www.xdebug.org/html/docs/include/functions/xdebug_dump_superglobals
+www.xdebug.org/html/docs/include/functions/xdebug_get_code_coverage
+www.xdebug.org/html/docs/include/functions/xdebug_get_declared_vars
+www.xdebug.org/html/docs/include/functions/xdebug_get_function_stack
+www.xdebug.org/html/docs/include/functions/xdebug_get_profiler_filename
+www.xdebug.org/html/docs/include/functions/xdebug_var_dump
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/menu-docs.php
+www.xdebug.org/html/include/menu.php:
+- More updates.
+
+Sun Mar 18 11:57:56 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/.htaccess
+www.xdebug.org/html/docs-debugger.php
+www.xdebug.org/html/license.php
+www.xdebug.org/html/docs/index.php
+www.xdebug.org/html/docs/include/basic.php
+www.xdebug.org/html/docs/include/features.php
+www.xdebug.org/html/docs/include/functions.php
+www.xdebug.org/html/docs/include/settings.php
+www.xdebug.org/html/docs/include/functions/xdebug_break
+www.xdebug.org/html/docs/include/functions/xdebug_call_class
+www.xdebug.org/html/docs/include/functions/xdebug_call_file
+www.xdebug.org/html/docs/include/functions/xdebug_call_function
+www.xdebug.org/html/docs/include/functions/xdebug_call_line
+www.xdebug.org/html/docs/include/functions/xdebug_debug_zval
+www.xdebug.org/html/docs/include/functions/xdebug_debug_zval_stdout
+www.xdebug.org/html/docs/include/functions/xdebug_disable
+www.xdebug.org/html/docs/include/functions/xdebug_dump_superglobals
+www.xdebug.org/html/docs/include/functions/xdebug_enable
+www.xdebug.org/html/docs/include/functions/xdebug_get_code_coverage
+www.xdebug.org/html/docs/include/functions/xdebug_get_declared_vars
+www.xdebug.org/html/docs/include/functions/xdebug_get_function_stack
+www.xdebug.org/html/docs/include/functions/xdebug_get_profiler_filename
+www.xdebug.org/html/docs/include/functions/xdebug_get_stack_depth
+www.xdebug.org/html/docs/include/functions/xdebug_get_tracefile_name
+www.xdebug.org/html/docs/include/functions/xdebug_is_disabled
+www.xdebug.org/html/docs/include/functions/xdebug_memory_usage
+www.xdebug.org/html/docs/include/functions/xdebug_peak_memory_usage
+www.xdebug.org/html/docs/include/functions/xdebug_start_code_coverage
+www.xdebug.org/html/docs/include/functions/xdebug_start_trace
+www.xdebug.org/html/docs/include/functions/xdebug_stop_code_coverage
+www.xdebug.org/html/docs/include/functions/xdebug_stop_trace
+www.xdebug.org/html/docs/include/functions/xdebug_time_index
+www.xdebug.org/html/docs/include/functions/xdebug_var_dump
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/menu-docs.php
+www.xdebug.org/html/include/menu.php:
+- Phase 1 of the new docs - structure.
+
+Mon Feb 19 22:43:27 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Fixed bug #204: Add better docs about phpize/php-config.
+
+Mon Feb 19 22:38:37 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php:
+- Test 2
+
+Mon Feb 19 22:37:27 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/include/header.php:
+- Colour (and test mail)
+
+Mon Feb 19 22:30:28 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs-debugger.php
+www.xdebug.org/html/docs-functions.php
+www.xdebug.org/html/docs-settings.php:
+- Fixed bug #205: Add a list of supported IDEs/debugger frontends.
+
+Mon Feb 12 03:50:03 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php
+www.xdebug.org/html/include/footer.php:
+- Document some more settings.
+
+Wed Jan 31 20:54:31 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/include/side.php:
+- Fixed date.
+
+Wed Jan 31 20:53:38 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/php_xdebug-2.0.0rc3-4.4.1.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc3-5.1.2.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc3-5.2.1.dll
+www.xdebug.org/html/files/xdebug-2.0.0RC3.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Release 2.0.0rc3.
+
+Wed Jan 24 15:48:53 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/docs-faq.php:
+- Added XAMPP FAQ.
+
+Sat Jan 06 01:34:37 CET 2007 Derick Rethans <derick@derickrethans.nl>
+html/support.php:
+- Fixed typo.
+
+Sun Dec 24 21:02:09 CET 2006 Derick Rethans <derick@derickrethans.nl>
+html/files/php_xdebug-2.0.0rc2-4.4.1.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc2-5.1.2.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc2-5.2.1.dll
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Added Windows binaries.
+
+Sun Dec 24 15:38:41 CET 2006 Derick Rethans <derick@derickrethans.nl>
+html/favicon.ico:
+- Added favicon
+
+Sun Dec 24 15:38:06 CET 2006 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/xdebug-2.0.0RC2.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- RC2 stuff
+
+Tue Dec 12 20:33:08 CET 2006 Derick Rethans <derick@derickrethans.nl>
+html/index.php:
+- Fixed title.
+
+Fri Dec 01 13:57:41 CET 2006 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php
+www.xdebug.org/html/install.php:
+- Fixed typoes.
+
+Thu Nov 02 11:09:54 CET 2006 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Added Note about debug builds.
+
+Wed Oct 25 14:56:03 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Added linkable install instructions.
+
+Wed Oct 11 10:50:31 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/files/php_xdebug-2.0.0rc1-4.3.11.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc1-4.4.1.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc1-5.0.5.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc1-5.1.2.dll
+www.xdebug.org/html/files/php_xdebug-2.0.0rc1-5.2.0.dll
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Added Windows binaries.
+
+Tue Oct 10 13:31:08 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Some clarifications for debugclient
+- Updated phpize output numbers
+
+Sun Oct 08 23:12:50 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/xdebug-2.0.0RC1.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Updates for RC1.
+
+Thu Sep 14 18:02:07 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php:
+- Fixed typo.
+
+Thu Jul 27 09:14:21 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/docs-functions.php:
+- Fixed typo
+
+Fri Jun 30 15:25:51 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/include/header.php
+www.xdebug.org/html/include/menu-docs.php
+www.xdebug.org/html/include/menu.php
+www.xdebug.org/html/include/side.php:
+- Fixed bug #179: obnoxiously small font on website.
+
+Fri Jun 30 14:40:52 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Fixed site.
+
+Fri Jun 30 14:39:33 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/php_xdebug-4.3.11-2.0.0beta6.dll
+www.xdebug.org/html/files/php_xdebug-4.4.1-2.0.0beta6.dll
+www.xdebug.org/html/files/php_xdebug-5.1.2-2.0.0beta6.dll
+www.xdebug.org/html/files/xdebug-2.0.0beta6.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Publish 2.0.0beta6
+
+Mon Jun 26 22:56:53 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php:
+- Fix it for real now.
+
+Mon Jun 26 22:54:51 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php:
+- Fixed default value for remote_port setting in docs.
+
+Fri May 26 19:44:29 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/images/debug_zval.png:
+- Adding missing image.
+
+Sun Apr 02 09:30:21 CEST 2006 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php:
+- Update with latest addition to naming of files.
+
+Fri Mar 03 09:23:14 CET 2006 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php:
+- That wasn't quite correct yet.
+
+Fri Mar 03 09:19:41 CET 2006 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php:
+- Fixed docs for trace_format.
+
+Sat Dec 31 13:17:01 CET 2005 Derick Rethans <derick@derickrethans.nl>
+html/docs-functions.php
+www.xdebug.org/html/docs-settings.php
+www.xdebug.org/html/index.php
+www.xdebug.org/html/install.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/php_xdebug-4.3.11-2.0.0beta5.dll
+www.xdebug.org/html/files/php_xdebug-4.4.1-2.0.0beta5.dll
+www.xdebug.org/html/files/php_xdebug-5.0.5-2.0.0beta5.dll
+www.xdebug.org/html/files/php_xdebug-5.1.1-2.0.0beta5.dll
+www.xdebug.org/html/files/xdebug-2.0.0beta5.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Update docs
+- Added files for beta5.
+
+Wed Nov 09 10:26:52 CET 2005 Derick Rethans <derick@derickrethans.nl>
+html/docs-profiling2.php:
+- Fixed typo.
+
+Mon Aug 01 19:15:22 CEST 2005 Derick Rethans <derick@derickrethans.nl>
+html/docs-profiling2.php:
+- Fixed bug #140: Docs regarding crc32 of directory for profiling are wrong.
+
+Wed Jul 20 09:50:24 CEST 2005 Derick Rethans <derick@derickrethans.nl>
+html/include/links.php:
+- Fix links.
+
+Fri Jul 15 13:56:44 CEST 2005 Derick Rethans <derick@derickrethans.nl>
+html/files/xdebug-4.4dev-1.3dev.dll
+www.xdebug.org/html/files/xdebug-4.4dev-2.0dev.dll
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Add Xdebug snapshot for 4.4
+
+Fri Apr 29 09:27:24 CEST 2005 Derick Rethans <derick@derickrethans.nl>
+html/docs-profiling2.php:
+- Added WinCacheGrind link.
+
+Thu Mar 10 09:29:07 CET 2005 Derick Rethans <derick@derickrethans.nl>
+html/files/debugclient-0.7.3
+www.xdebug.org/html/files/debugclient-0.7.3.exe
+www.xdebug.org/html/files/debugclient-0.9.0
+www.xdebug.org/html/files/debugclient-0.9.0.exe
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Added new debugclient binaries.
+
+Sun Feb 27 14:01:46 CET 2005 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php:
+- Fixed typo.
+
+Mon Nov 29 21:57:59 CET 2004 Derick Rethans <derick@derickrethans.nl>
+html/files/breaking.pdf
+www.derickrethans.nl/html/files/createext.pdf
+www.derickrethans.nl/html/files/internals.pdf
+www.derickrethans.nl/html/files/playingsafe.pdf
+www.derickrethans.nl/html/files/xdebug-ffm2003.pdf
+www.derickrethans.nl/html/files/xdebug-montreal2004.pdf
+www.xdebug.org/html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/xdebug-2.0.0beta2.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Go with 2.0.0beta2
+
+Sun Nov 14 18:13:31 CET 2004 Derick Rethans <derick@derickrethans.nl>
+html/include/menu-docs.php:
+- Fixed typo.
+
+Sun Nov 14 18:12:56 CET 2004 Derick Rethans <derick@derickrethans.nl>
+html/include/menu-docs.php:
+- Link downloadble docs.
+
+Sun Nov 14 18:11:44 CET 2004 Derick Rethans <derick@derickrethans.nl>
+make-docs.sh
+www.xdebug.org/html/files/docs.tar.gz:
+- Added downloadable docs and generation tool.
+
+Tue Oct 05 12:59:05 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/files/debugclient08.exe
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Added DBGp debugclient for windows.
+
+Fri Sep 17 13:30:52 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/files/xdebug-4.3.6-2.0.0beta1.dll
+www.xdebug.org/html/files/xdebug-5.0-2.0.0beta1.dll
+www.xdebug.org/html/files/xdebug-5.1-2.0.0beta1.dll
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Added Windows modules.
+
+Fri Sep 17 13:20:42 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-settings.php:
+- Fixed some inconsistencies.
+
+Thu Sep 16 09:45:36 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Added "php -m" tip.
+
+Wed Sep 15 14:59:31 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/updates.php
+www.xdebug.org/html/files/xdebug-2.0.0beta1.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Go with 2.0.0beta1
+
+Wed Sep 01 11:00:38 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Added some more information on Debian.
+
+Mon Aug 16 11:40:08 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/files/xdebug-4.3-1.3.2.dll
+www.xdebug.org/html/files/xdebug-4.3-2.0dev.dll
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Add 1.3.2 binary to the site
+
+Mon Aug 09 08:28:27 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-functions.php
+www.xdebug.org/html/docs-settings.php
+www.xdebug.org/html/install.php:
+- Added the xdebug_get_stack_depth() documentation.
+- Updated some install instructions.
+
+Thu Aug 05 13:07:24 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-debugger.php
+www.xdebug.org/html/docs-settings.php:
+- Added documentation for the xdebug.idekey setting
+#- Fixed part of bug #85
+
+Tue Aug 03 22:44:42 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Fixed links to PECL snapshots
+
+Mon Aug 02 10:42:15 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-profiling2.php
+www.xdebug.org/html/docs-settings.php:
+- Added tip on ct_annotate
+- Fixed bug #80: Missing "Xdebug 2" identifier for xdebug.show_local_vars
+  setting documentation.
+
+Mon Aug 02 10:41:25 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/include/header.php:
+- Update styles a bit
+
+Thu Jul 01 11:09:01 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Fix instructions
+
+Wed Jun 30 13:55:05 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/install.php
+www.xdebug.org/html/files/xdebug-1.3.2.tgz
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Added 1.3.2 release announcement.
+
+Wed Jun 30 09:11:29 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Add 1.3cvs instructions.
+
+Wed Jun 23 15:33:25 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-debugger.php
+www.xdebug.org/html/docs-faq.php
+www.xdebug.org/html/docs-settings.php
+www.xdebug.org/html/install.php
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/side.php:
+- Added debugger docs, updated some other docs.
+
+Sun Jun 20 23:09:03 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/include/side.php:
+- Add CVS instructions to right menu.
+
+Fri Jun 18 23:53:36 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-profiling2.php
+www.xdebug.org/html/images/docs/kc-right-callers.png
+www.xdebug.org/html/images/docs/kc-right-callmap.png
+www.xdebug.org/html/images/docs/kc-right-source.png:
+- Some more screenshots and docs.
+
+Fri Jun 18 09:24:18 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/include/header.php:
+- Fixed some CSS issues
+
+Fri Jun 18 09:23:03 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-debugger.php
+www.xdebug.org/html/docs-faq.php
+www.xdebug.org/html/docs-gdb.php
+www.xdebug.org/html/docs-profiling2.php
+www.xdebug.org/html/install.php
+www.xdebug.org/html/images/docs/kc-open.png
+www.xdebug.org/html/images/docs/kc-percentage.png
+www.xdebug.org/html/images/docs/kc-profile.png
+www.xdebug.org/html/images/docs/kc-right-call.png
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/menu-docs.php:
+- Added some more docs
+#- Still not finished...
+
+Mon Jun 14 09:51:18 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-profiling2.php
+www.xdebug.org/html/docs-dbgp.php
+www.xdebug.org/html/docs-profiling.php
+www.xdebug.org/html/docs-settings.php
+www.xdebug.org/html/docs.php
+www.xdebug.org/html/license.php
+www.xdebug.org/html/include/footer.php
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/menu-docs.php:
+- Tiny issues and start of profiling for Xdebug 2 docs.
+
+Sun Jun 13 15:44:06 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-functions.php
+www.xdebug.org/html/docs-settings.php
+www.xdebug.org/html/docs.php:
+- Update Index
+
+Sat Jun 12 17:38:03 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-functions.php
+www.xdebug.org/html/docs-profiling.php
+www.xdebug.org/html/docs-settings.php
+www.xdebug.org/html/docs.php:
+- Add a whole lot of documentation for xdebug 2. Not nearly finished...
+
+Thu May 27 08:17:40 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-functions.php
+www.xdebug.org/html/docs-settings.php
+www.xdebug.org/html/docs.php
+www.xdebug.org/html/include/header.php
+www.xdebug.org/html/include/menu-docs.php:
+- First batch of documentation updates.
+
+Thu May 13 17:25:25 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/docs-dbgp.php:
+- New version of DBGp specs.
+
+Thu Apr 08 21:51:23 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/support.php:
+- Fixed typo in URL
+
+Thu Apr 08 21:50:17 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/support.php
+www.xdebug.org/html/include/header.php:
+- Update support site
+
+Thu Apr 08 17:14:49 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Fixed install instructions and added new link to MacOSX stuff
+
+Tue Apr 06 22:46:51 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/index.php
+www.xdebug.org/html/files/xdebug-1.3.1.tgz
+www.xdebug.org/html/files/xdebug-4.3-1.3.1.dll
+www.xdebug.org/html/include/links.php
+www.xdebug.org/html/include/side.php:
+- Put Xdebug 1.3.1 on the page too
+
+Thu Apr 01 00:14:26 CEST 2004 Derick Rethans <derick@derickrethans.nl>
+html/index.php:
+- Archive announcements.
+
+Tue Mar 16 23:29:48 CET 2004 Derick Rethans <derick@derickrethans.nl>
+html/install.php:
+- Bump API no in instructions
+
+Fri Mar 12 11:11:36 CET 2004 Derick Rethans <derick@derickrethans.nl>
+html/files/1.1:
+- Added VIM syntax file
+
+Mon Jan 19 11:30:15 CET 2004 Derick Rethans <derick@derickrethans.nl>
+/www.xdebug.org/html/include/side.php:
+- Fix install instructions
+
+Thu Jan 15 14:03:42 CET 2004 Derick Rethans <derick@derickrethans.nl>
+/www.xdebug.org/html/install.php:
+- Added tip for thread safe mode
+
+Sun Dec 28 20:33:06 CET 2003 Derick Rethans <derick@derickrethans.nl>
+/www.xdebug.org/html/license.php
+/www.xdebug.org/html/index.php
+/www.xdebug.org/html/include/header.php
+/www.xdebug.org/html/include/menu.php:
+- Added the license to the website
+
+Fri Dec 26 23:33:04 CET 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/include/links.php:
+- Fix link
+
+Fri Dec 26 23:28:01 CET 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/index.php
+/www.xdebug.org/html/updates.php
+/www.xdebug.org/html/include/links.php
+/www.xdebug.org/html/include/side.php:
+- Release 1.3.0
+
+Sat Dec 20 18:01:16 CET 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/docs-dbgp.php
+/www.xdebug.org/html/include/header.php:
+- Publish draft 13
+
+Fri Dec 19 11:54:34 CET 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/images/maguma.png:
+- Add Maguma logo
+
+Wed Dec 10 13:09:05 CET 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/include/links.php
+/www.xdebug.org/html/include/side.php:
+- Publish binary snapshots for windows
+
+Thu Dec 4 11:39:57 CET 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/docs-dbgp.php:
+- Update to draft 12
+
+Fri Oct 31 11:24:03 CET 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/docs.php
+/www.xdebug.org/html/index.php
+/www.xdebug.org/html/include/header.php
+/www.xdebug.org/html/include/menu-docs.php:
+- Fix typo in function name
+
+Sat Oct 11 23:15:51 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/install.php:
+- Add link to Mac instructions
+
+Tue Oct 7 16:19:02 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/include/header.php:
+- Fix background color
+
+Tue Oct 7 16:14:44 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/docs-dbgp.php
+/www.xdebug.org/html/include/header.php:
+- Added DBGP docs
+
+Sun Oct 5 18:56:25 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/support.php:
+- Fixed typo
+
+Thu Sep 18 17:38:55 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/include/side.php:
+- HTML fix
+
+Thu Sep 18 17:37:03 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/index.php
+/www.xdebug.org/html/updates.php
+/www.xdebug.org/html/include/links.php
+/www.xdebug.org/html/include/side.php:
+- Update site for 1.3.0rc1 release
+
+Fri Sep 12 14:00:27 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/install.php
+/www.xdebug.org/html/support.php
+/www.xdebug.org/html/updates.php
+/www.xdebug.org/html/include/header.php:
+- Fixed up some docs
+
+Fri Sep 12 12:10:53 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/images/xdebug.gif:
+- Fix image
+
+Wed Sep 10 22:35:39 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/docs-profiling.php:
+- Add docs for profiling summary data
+
+Wed Sep 10 16:49:38 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/images/xdebug.gif:
+- Add logo
+
+Wed Sep 10 16:48:26 CEST 2003 Derick Rethans <d.rethans@jdimedia.nl>
+/www.xdebug.org/html/images/topleft.gif
+/www.xdebug.org/html/include/header.php:
+- Fixed colors
+

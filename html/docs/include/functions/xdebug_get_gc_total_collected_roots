@@ -1,0 +1,13 @@
+= xdebug_get_gc_total_collected_roots
+Returns the number of variable roots that have been collected so far
+int
+none
+FUNC_GARBAGE_COLLECTION
+
+TXT:
+The function returns the number of variable roots that the garbage collection has
+collected during all runs of the garbage collector in the current script.
+
+TXT:
+This number is available even if the [CFG:start_with_request] INI setting is
+not set to <code>yes</code>.

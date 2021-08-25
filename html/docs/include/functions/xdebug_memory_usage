@@ -1,0 +1,10 @@
+= xdebug_memory_usage
+Returns the current memory usage
+int
+none
+FUNC_BASIC
+
+TXT:
+Returns the current amount of memory the script uses. Before PHP 5.2.1, this
+only works if PHP is compiled with --enable-memory-limit. From PHP 5.2.1 and
+later this function is always available.

@@ -1,0 +1,12 @@
+Xdebug 2.4.0 is out!
+<p>This new release brings support for PHP 7, and a few new features.
+The new function monitoring allows you to define a list of functions with
+<code>xdebug_start_function_monitor()</code>, and then every time that
+function is used, it's calling location is recorded. And the new
+xdebug.show_error_trace setting allows you to show a stack trace for every
+Error (throwable).</p>
+
+<p>The full change log can be found on the <a
+href="/updates#x_2_4_0">updates</a> page. The source code can be found
+on the <a href="/download.php">downloads</a> page, and as usual, Xdebug is
+installable through PECL.</p>

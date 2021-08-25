@@ -1,0 +1,20 @@
+{
+    "name": "xdebug/xdebug.org",
+    "type": "project",
+    "require-dev": {
+        "vimeo/psalm": "^3.5",
+        "zetacomponents/feed": "^1.4",
+        "ext-mongodb": "^1.5"
+    },
+    "autoload": {
+        "files": [
+            "src/constants.php"
+        ],
+    	"psr-4": {
+    		"XdebugDotOrg\\": "src"
+    	}
+    },
+    "require": {
+        "zetacomponents/document": "^1.3"
+    }
+}

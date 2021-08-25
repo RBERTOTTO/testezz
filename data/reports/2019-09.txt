@@ -1,0 +1,22 @@
+15.42	0.00	0.17	1.67	3.96
+2019-09-03		1.5	Writing Xdebug August 2019 update
+2019-09-03	bug	1	Investigate Pull Request #474 for issue #1534 and #1665
+2019-09-05	bug	3	Fixed issue #1665: Segfault with garbage collection and complex function arguments
+2019-09-06	bug	1	Investigating #1699: Crash during debugging Phalcon project
+2019-09-16	bug	0.75	Failing again to reproduce #1699: Crash during debugging Phalcon project	Patreon
+2019-09-16	bug	0.5	Triaging OSX bug #1701: Slowness due to calls to getTimeOfDay	Patreon
+2019-09-17	bug	1.25	Reproduced #1699, and provided a fix
+2019-09-19	bug	0.25	Triaging bug #1703 (Symbol not found: _compiler_globals)
+2019-09-19	bug	0.5	Triaging bug #1704 (Xdebug requires Zend Engine API version 320190529), starting and publishing new Windows builds of 2.8.0beta2
+2019-09-20	xdebug3	2.5	Refactoring Xdebug globlas into constituent parts
+2019-09-21	xdebug3	2	Refactoring Xdebug globlas into constituent parts
+2019-09-22	xdebug3	0.5	Refactoring Xdebug globlas into constituent parts
+2019-09-23	website	1	Merging Matt’s website re-architecture PR, added caching for download and log
+2019-09-23	xdebug3	3	Windows part of moving files, and fixing the “core” issue/directory.
+2019-09-26	xdebug3	1.5	Moving and renaming the files again
+2019-09-27	xdebug3	2.5	Moving and renaming the files
+2019-09-28	xdebug3	2	Moving and renaming the files
+2019-09-29	bug	1.5	Triaging and fixing bug #1705: Crash while debugging with ionCube being used
+2019-09-29	xdebug3	1	Refactoring initialisation (part 1 of n)
+2019-09-30		1	Writing Xdebug September 2019 update
+2019-09-30	xdebug3	0.5	Streaming the fix for the crash that I had introduced during refactoring (part 1)
